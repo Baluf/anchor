@@ -1,3 +1,4 @@
+import os
 from typing import Union
 
 import jsonschema
@@ -19,6 +20,13 @@ columns_structure = {
 
 class ManagementService:
     def __init__(self, sheets_directory=SHEETS_FILES_LOCATION, schema_directory=SCHEMA_FILES_LOCATION):
+
+        if not os.path.exists(sheets_directory):
+            os.makedirs(sheets_directory)
+
+        if not os.path.exists(schema_directory):
+            os.makedirs(schema_directory)
+
         self.sheet_loader = shl.SheetLoader(sheets_directory)
         self.schema_loader = scl.SchemaLoader(schema_directory)
 
