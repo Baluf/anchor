@@ -1,0 +1,200 @@
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f2f2f2;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .nice-title {
+            font-size: 48px;
+            color: #333;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin-top: 100px;
+            background-color: transparent;
+        }
+
+        .tabs {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .tab {
+            margin-right: 10px;
+            cursor: pointer;
+            padding: 5px 10px;
+            background-color: #ccc;
+        }
+
+        .tab.active {
+            background-color: #fff;
+            font-weight: bold;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 50px;
+            background-image: linear-gradient(135deg, rgba(25, 136, 247, 0.57) 8%, rgba(247, 25, 136, 1) 100%);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 50%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        button#beautifyButton {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button#createSheet {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button#beautifyButton:hover {
+            background-color: #005F6B;
+        }
+
+        button#createSheet:hover {
+            background-color: #005F6B;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        header {
+            display: flex; /* Use flexbox layout */
+        }
+
+        header#logo {
+            width: 100%;
+            background-color: white;
+        }
+
+        img#logo {
+            width: 100%; /* Make the logo span full width */
+            height: 50px; /* Set a fixed height for the logo */
+            object-fit: contain; /* Maintain aspect ratio while fitting within the container */
+        }
+
+        textarea {
+            width: 50%;
+            padding: 23px;
+            font-size: 20px;
+            border-width: 6px;
+            border-color: #d4d4d4;
+            background-color: #efe6f1;
+            color: #000000;
+            border-style: solid;
+            border-radius: 31px;
+            box-shadow: 0px 0px 3px rgba(66, 66, 66, .29);
+        }
+
+        .copyButton {
+            background-color: purple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .copyButton:hover {
+            background-color: #005F6B;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        button#createSheet[disabled] {
+            background-color: #ccc; /* Change background color */
+            cursor: not-allowed; /* Change cursor */
+        }
+
+        button#createSheet[disabled]:hover {
+            background-color: #ccc; /* Same as background color */
+            cursor: not-allowed; /* Same as cursor */
+        }
