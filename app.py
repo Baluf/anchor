@@ -11,7 +11,7 @@ app.register_blueprint(sheet_blueprint, prefix='/sheet')
 @app.route('/')
 def index():
     logo_file = os.path.join('static', 'logo.png')
-    return render_template('templates/index.html', logo=logo_file)
+    return render_template('index.html', logo=logo_file)
 
 
 if __name__ == '__main__':

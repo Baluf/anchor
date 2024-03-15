@@ -49,6 +49,7 @@
                 <input type="text" id="sheetIdGet" name="sheetIdGet"><br>
                 <button id="getSheetButton" type="submit">Get Sheet</button>
                 <h1 class="nice-title">Sheet Data</h1>
+                <p id="getSheetResponse" class="error-text"></p>
                 <table id="data-table"></table>
             </form>
         </div>
@@ -188,10 +189,12 @@
                     table.appendChild(row);
                 }
             }).catch(error => {
+            document.getElementById('getSheetResponse').innerHTML = 'Failed to fetch the sheet may not exist'
             console.error('Error fetching data:', error);
         })
         setTimeout(function () {
             document.getElementById("data-table").innerHTML = '';
+            document.getElementById('getSheetResponse').innerHTML  = '';
         }, 10000)
             .catch(error => console.error('Error:', error));
     })

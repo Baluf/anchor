@@ -45,6 +45,8 @@ class SheetLoader:
     def get_sheet_path_by_id(self, sheet_id: str):
         if not self.sheets:
             self.load_sheets()
+        if self.locks.get(sheet_id) is None:
+            return None
         with self.locks[sheet_id]:
             return self.sheets.get(sheet_id)
 
