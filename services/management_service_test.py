@@ -9,6 +9,12 @@ class ManagementServiceTest(unittest.TestCase):
     SCHEMA_LOCATION = "../testing/schema_files"
 
     def setUp(self):
+        if not os.path.exists(ManagementServiceTest.SHEETS_LOCATION):
+            os.makedirs(ManagementServiceTest.SHEETS_LOCATION)
+
+        if not os.path.exists(ManagementServiceTest.SCHEMA_LOCATION):
+            os.makedirs(ManagementServiceTest.SCHEMA_LOCATION)
+
         self.service = ManagementService(ManagementServiceTest.SHEETS_LOCATION, ManagementServiceTest.SCHEMA_LOCATION)
         self.columns = ['A', 'B', 'C', 'D']
         self.schema = {
