@@ -1,5 +1,5 @@
 # anchor
-spreadsheet management server in python.
+spreadsheet management tool server in python.
 
 # anchor - spreadsheet management
 
