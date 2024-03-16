@@ -3,14 +3,14 @@ spreadsheet management server in python.
 
 # anchor - spreadsheet management
 
-<img width="1575" alt="image" src="https://github.com/Baluf/anchor/assets/162377261/2e56c3df-45d9-4754-bb72-24dd4c8dc52a">
+![Uploading image.png…]()
 
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 
@@ -22,7 +22,7 @@ Flask server in python which provides spreadsheet management login. <br> With th
 
 There are 3 main http handlers to the project detailed below:
 
-- API that receives aschema for the new sheet to be created.
+- API 1 that receives aschema for the new sheet to be created.
 ```json
 {
     "columns": [
@@ -47,14 +47,14 @@ There are 3 main http handlers to the project detailed below:
 ```
 
   
-- API that set a specific cell’s value in a specific sheet.
-- API that return a sheet by id.
+- API 2 that set a specific cell’s value in a specific sheet.
+- API 3 that return a sheet by id.
 
 ## Endpoints
 
-1. @sheet_blueprint.route('/sheet/<sheet_id>', methods=['GET'])
-2. @sheet_blueprint.route('/sheet', methods=['POST'])
-4. @sheet_blueprint.route('/sheet/<sheet_id>/cell', methods=['PUT'])
+1. GET http://localhost:5000/sheet/{sheetId}
+2. POST http://localhost:5000/sheet
+4. PUT http://localhost:5000/sheet/<sheet_id>/cell
 
 ## Installation
 
