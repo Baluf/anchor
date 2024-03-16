@@ -22,7 +22,7 @@ Below you can get more details of the usage :relaxed: .<br>The server is written
 
 There are 3 main http handlers to the project detailed below:
 
-- API 1: that receives aschema for the new sheet to be created.
+- API :one: that receives aschema for the new sheet to be created.
 ```json
 {
     "columns": [
@@ -47,8 +47,8 @@ There are 3 main http handlers to the project detailed below:
 ```
 
   
-- API 2: that set a specific cell’s value in a specific sheet.
-- API 3: that return a sheet by id.
+- API :two: that set a specific cell’s value in a specific sheet.
+- API :three: that return a sheet by id.
 
 ## Endpoints
 
