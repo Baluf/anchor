@@ -52,9 +52,9 @@ There are 3 main http handlers to the project detailed below:
 
 ## Endpoints
 
-:one: GET http://localhost:5000/sheet/{sheetId}
-:two: POST http://localhost:5000/sheet
-:three: PUT http://localhost:5000/sheet/{sheetId}/cell
+:one: GET http://localhost:5000/sheet/{sheetId} <br>
+:two: POST http://localhost:5000/sheet <br>
+:three: PUT http://localhost:5000/sheet/{sheetId}/cell <br>
 
 ## Installation :open_file_folder:
 
