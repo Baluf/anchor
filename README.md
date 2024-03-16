@@ -25,24 +25,24 @@ There are 3 main http handlers to the project detailed below:
 - API that receives aschema for the new sheet to be created.
 ```json
 {
-"columns":[
-{
-"name":"A",
-"type":"boolean"
-},
-{
-"name":"B",
-"type":"int"
-},
-{
-"name":"C",
-"type":"double"
-},
-{
-"name":"D",
-"type":"string"
-}
-]
+    "columns": [
+        {
+            "name": "A",
+            "type": "boolean"
+        },
+        {
+            "name": "B",
+            "type": "int"
+        },
+        {
+            "name": "C",
+            "type": "double"
+        },
+        {
+            "name": "D",
+            "type": "string"
+        }
+    ]
 }
 ```
 
