@@ -11,6 +11,7 @@
 - [Features](#features) 
 - [Endpoints](#endpoints) 
 - [Installation](#installation) 📁
+- [Testing](#Testing)
 
 ## Introduction
 
@@ -84,3 +85,10 @@ To run the server execute:
 ```bash
 /usr/bin/python3.9 <your-project-path>/anchor/app.py
 ```
+
+## Testing
+
+The project includes multiple testing, unit and integration with real server 😃
+
+- Unit Testing - can be found in **services/management_service_test.py** and **routes/route_test.py**.
+- E2E Testing - can be found in **integration_testing/integration_test.py**, using the power of <a href="https://pypi.org/project/Flask-Testing/">Flask-Testing</a> which runs the real server.
