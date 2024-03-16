@@ -72,6 +72,15 @@ There are 3 main http handlers to the server detailed below:
 
 ## Installation 
 
+Make sure you have python 3.9 or higher installed on your machine.
+
+Then install requirements using pip:
 ```bash
 pip install -r requirements.txt
+```
+
+To run the server execute:
+
+```bash
 /usr/bin/python3.9 <your-project-path>/anchor/app.py
+```
