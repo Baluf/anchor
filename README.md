@@ -55,31 +55,13 @@ There are 3 main http handlers to the server detailed below:
 }
 ```
 - API :three: that returns a sheet by id. <br> Example for respone in json:
-  
-  ```json
-  {
-    "data": [
-        [
-            "A",
-            "B",
-            "C",
-            "D"
-        ],
-        [
-            "TRUE",
-            null,
-            null,
-            null
-        ],
-        [
-            "TRUE",
-            "3",
-            null,
-            null
-        ]
-    ]
-  }
-  ```
+```json
+{
+"data": [["A","B","C","D"],
+        ["TRUE",null,null,null],
+        ["TRUE","3",null,null]]
+}
+```
   
 
 ## Endpoints
