@@ -13,7 +13,7 @@ class SheetController:
         if exit_code == -1:
             return jsonify(msg), http.HTTPStatus.BAD_REQUEST
         else:
-            return jsonify(msg), http.HTTPStatus.OK
+            return jsonify({"data": msg}), http.HTTPStatus.OK
 
     def create_sheet(self):
         schema = request.json
@@ -43,7 +43,7 @@ class SheetController:
 
         exit_code, msg = self.management.update_sheet_cell(sheet_id, column_name, row_index, value)
 
-        if exit_code:
+        if exit_code == -1:
             return jsonify(msg), http.HTTPStatus.BAD_REQUEST
         else:
             return jsonify(msg), http.HTTPStatus.OK

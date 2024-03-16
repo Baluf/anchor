@@ -171,7 +171,8 @@
 
                 // Create table header
                 const headerRow = document.createElement('tr');
-                data[0].forEach(cell => {
+
+                data["data"][0].forEach(cell => {
                     const th = document.createElement('th');
                     th.textContent = cell;
                     headerRow.appendChild(th);
@@ -179,9 +180,9 @@
                 table.appendChild(headerRow);
 
                 // Create table rows
-                for (let i = 1; i < data.length; i++) {
+                for (let i = 1; i <  data["data"].length; i++) {
                     const row = document.createElement('tr');
-                    data[i].forEach(cell => {
+                    data["data"][i].forEach(cell => {
                         const td = document.createElement('td');
                         td.textContent = cell;
                         row.appendChild(td);
