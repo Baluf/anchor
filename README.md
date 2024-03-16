@@ -20,7 +20,7 @@ Below you can get more details of the usage :relaxed: <br>The server is written 
 
 ## Features
 
-There are 3 main http handlers to the project detailed below:
+There are 3 main http handlers to the server detailed below:
 
 - API :one: that receives aschema for the new sheet to be created.
 ```json
