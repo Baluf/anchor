@@ -52,9 +52,9 @@ There are 3 main http handlers to the project detailed below:
 
 ## Endpoints
 
-1. GET 'http://localhost:5000/sheet/{sheetId}'
-2. POST 'http://localhost:5000/sheet'
-4. PUT 'http://localhost:5000/sheet/{sheet_id}/cell'
+1. GET http://localhost:5000/sheet/{sheetId}
+2. POST http://localhost:5000/sheet
+4. PUT http://localhost:5000/sheet/{sheet_id}/cell
 
 ## Installation
 
