@@ -23,7 +23,7 @@
                 <label for="data">Schema (JSON format):</label><br>
                 <textarea id="createSheetData" name="data" rows="5" cols="50"></textarea><br>
                 <button id="createSheet">Create Sheet</button>
-                <button id="beautifyButton">Beautify JSON</button>
+                <button id="formatJson">Format json</button>
             </form>
             <p id="createSheetResponse"></p>
         </div>
@@ -82,7 +82,7 @@
         });
     });
 
-    document.getElementById("beautifyButton").addEventListener("click", function (event) {
+    document.getElementById("formatJson").addEventListener("click", function (event) {
         event.preventDefault(); // Prevent default form submission behavior
         const jsonTextarea = document.getElementById("createSheetData");
         try {
