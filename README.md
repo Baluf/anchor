@@ -46,7 +46,14 @@ There are 3 main http handlers to the server detailed below:
 ```
 
   
-- API :two: that set a specific cell’s value in a specific sheet.
+- API :two: that set a specific cell’s value in a specific sheet.<br> Example for json to be sent:
+ ```json
+{
+    "column": "A",
+    "row_index": "1",
+    "value": "true"
+}
+```
 - API :three: that returns a sheet by id. <br> Example for respone in json:
   
   ```json
