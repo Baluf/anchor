@@ -15,7 +15,8 @@ Spreadsheet management tool server in python.
 
 ## Introduction
 
-Flask server in python which provides spreadsheet management login. <br> With the server you can create, edit, get the sheets.
+Anchor spreadsheet management server provides multiple capabilitis. <br> With this tool you can optimise your work with sheets, upload, edit and save. 
+Below you can get more details of the usage. The server is written in python 3.9 and use Flask infrastructure. 
 
 ## Features
 
@@ -59,4 +60,4 @@ There are 3 main http handlers to the project detailed below:
 
 ```bash
 pip install -r requirements.txt
-/usr/bin/python3 <your-project-path>/anchor/app.py
+/usr/bin/python3.9 <your-project-path>/anchor/app.py
