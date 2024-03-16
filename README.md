@@ -8,9 +8,9 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Endpoints](#endpoints)
-- [Installation](#installation) :open_file_folder:
+- [Features](#features) 
+- [Endpoints](#endpoints) 
+- [Installation](#installation) 📁
 
 ## Introduction
 
