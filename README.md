@@ -14,8 +14,8 @@
 
 ## Introduction
 
-Anchor spreadsheet management server provides multiple capabilitis.<br>With this tool you can optimise your work with sheets, create, edit and save.<br> 
-Below you can get more details of the usage :relaxed: <br>The server is written in python 3.9 and use Flask infrastructure. 
+Anchor spreadsheet management server provides multiple capabilitis.<br>With this tool you can optimise your work with sheets. Create, edit and store them.<br> 
+The server is written in python 3.9 and use Flask infrastructure.<br>Below you can get more details of the usage :relaxed: 
 
 ## Features
 
