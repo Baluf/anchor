@@ -1,7 +1,6 @@
 # Anchor
-spreadsheet management tool server in python.
 
-# anchor - spreadsheet management
+Spreadsheet management tool server in python.
 
 <img width="1586" alt="image" src="https://github.com/Baluf/anchor/assets/162377261/7bc10cf9-8b5a-4614-92a2-94bc742cb3ab">
 
