@@ -9,9 +9,8 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Usage](#usage)
 - [Endpoints](#endpoints)
-- [Installation](#installation)
+- [Installation](#installation) :open_file_folder:
 
 ## Introduction
 
@@ -22,7 +21,7 @@ Below you can get more details of the usage :relaxed: <br>The server is written 
 
 There are 3 main http handlers to the server detailed below:
 
-- API :one: that receives aschema for the new sheet to be created. example for schema to be sent:
+- API :one: that receives aschema for the new sheet to be created.<br>Example for schema to be sent:
 ```json
 {
     "columns": [
@@ -48,7 +47,7 @@ There are 3 main http handlers to the server detailed below:
 
   
 - API :two: that set a specific cell’s value in a specific sheet.
-- API :three: that return a sheet by id. example for respone:
+- API :three: that returns a sheet by id. <br> Example for respone:
   
   ```json
   {
@@ -72,8 +71,8 @@ There are 3 main http handlers to the server detailed below:
             null
         ]
     ]
-}  
-    ```
+  }
+  ```
   
 
 ## Endpoints
@@ -82,7 +81,7 @@ There are 3 main http handlers to the server detailed below:
 :two: POST http://localhost:5000/sheet <br>
 :three: PUT http://localhost:5000/sheet/{sheetId}/cell <br>
 
-## Installation :open_file_folder:
+## Installation 
 
 ```bash
 pip install -r requirements.txt
