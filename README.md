@@ -8,11 +8,11 @@ spreadsheet management server in python.
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
+- [Installation](#installation)
 
 ## Introduction
 
