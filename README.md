@@ -21,16 +21,18 @@ Flask server in python which provides spreadsheet management login. with the ser
 
 ## Features
 
-List the main features of your project.
+There are 3 main http handlers to the project detailed below:
 
-- Feature 1
-- Feature 2
-- ...
+- API that receives aschema for the new sheet to be created.
+- API that set a specific cell’s value in a specific sheet
+- API that that return a sheet by id
+
+## Endpoints
+
+---------
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
-
-```bash
-/usr/bin/python3 <your-project-path>/anchor/app.py ;
+/usr/bin/python3 <your-project-path>/anchor/app.py
