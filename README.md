@@ -12,24 +12,24 @@ Brief description of your project.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-Flask server in python which provides spreadsheet management login. with the server you can create, edit, get the sheets.
+Flask server in python which provides spreadsheet management login. <br> With the server you can create, edit, get the sheets.
 
 ## Features
 
 There are 3 main http handlers to the project detailed below:
 
 - API that receives aschema for the new sheet to be created.
-- API that set a specific cell’s value in a specific sheet
-- API that that return a sheet by id
+- API that set a specific cell’s value in a specific sheet.
+- API that that return a sheet by id.
 
 ## Endpoints
 
----------
+1. @sheet_blueprint.route('/sheet/<sheet_id>', methods=['GET'])
+2. @sheet_blueprint.route('/sheet', methods=['POST'])
+4. @sheet_blueprint.route('/sheet/<sheet_id>/cell', methods=['PUT'])
 
 ## Installation
 
