@@ -1,6 +1,6 @@
 # Anchor
 
-Spreadsheet management tool server in python.
+🔥 Spreadsheet management tool server in python 🔥
 
 <img width="1586" alt="image" src="https://github.com/Baluf/anchor/assets/162377261/7bc10cf9-8b5a-4614-92a2-94bc742cb3ab">
 
@@ -16,7 +16,7 @@ Spreadsheet management tool server in python.
 ## Introduction
 
 Anchor spreadsheet management server provides multiple capabilitis.<br>With this tool you can optimise your work with sheets, create, edit and save.<br> 
-Below you can get more details of the usage.<br>The server is written in python 3.9 and use Flask infrastructure. 
+Below you can get more details of the usage :relaxed: .<br>The server is written in python 3.9 and use Flask infrastructure. 
 
 ## Features
 
