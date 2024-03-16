@@ -21,7 +21,7 @@ Below you can get more details of the usage :relaxed: <br>The server is written 
 
 There are 3 main http handlers to the server detailed below:
 
-- API :one: that receives aschema for the new sheet to be created.<br>Example for schema to be sent:
+- API :one: that receives a schema (json) for the new sheet to be created.<br>Example for schema to be sent:
 ```json
 {
     "columns": [
@@ -47,7 +47,7 @@ There are 3 main http handlers to the server detailed below:
 
   
 - API :two: that set a specific cell’s value in a specific sheet.
-- API :three: that returns a sheet by id. <br> Example for respone:
+- API :three: that returns a sheet by id. <br> Example for respone in json:
   
   ```json
   {
