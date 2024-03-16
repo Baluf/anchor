@@ -24,7 +24,7 @@ There are 3 main http handlers to the project detailed below:
 
 - API that receives aschema for the new sheet to be created.
 - API that set a specific cell’s value in a specific sheet.
-- API that that return a sheet by id.
+- API that return a sheet by id.
 
 ## Endpoints
 
