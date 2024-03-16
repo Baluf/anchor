@@ -31,7 +31,7 @@ class ManagementService:
         self.schema_loader = scl.SchemaLoader(schema_directory)
 
     def update_sheet_cell(self, sheet_id: str, column_name: str, row_index: int, value: str):
-        if row_index <= 1:
+        if row_index < 1:
             return -1, {"error": "invalid row_index"}
 
         sheet_path = self.sheet_loader.get_sheet_path_by_id(sheet_id)

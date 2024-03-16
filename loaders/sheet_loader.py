@@ -62,7 +62,7 @@ class SheetLoader:
             with self.locks[sheet_id]:
                 wb = load_workbook(path)
                 ws = wb.active
-                ws.cell(row=row_index, column=column_index + 1).value = value
+                ws.cell(row=row_index + 1, column=column_index + 1).value = value
                 wb.save(path)
         except Exception as e:
             raise UpdateSheetCellException()
@@ -78,7 +78,7 @@ class SheetLoader:
                 ws = wb.active
                 column_names = [col.value for col in ws[1]]
                 column_index = column_names.index(column_name)
-                return ws.cell(row=row_index, column=column_index + 1).value
+                return ws.cell(row=row_index + 1, column=column_index + 1).value
         except Exception:
             raise SheetGetValueException()
 
