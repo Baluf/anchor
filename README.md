@@ -1,4 +1,4 @@
-# anchor
+# Anchor
 spreadsheet management tool server in python.
 
 # anchor - spreadsheet management
