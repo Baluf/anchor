@@ -23,6 +23,29 @@ Flask server in python which provides spreadsheet management login. <br> With th
 There are 3 main http handlers to the project detailed below:
 
 - API that receives aschema for the new sheet to be created.
+```json
+{
+"columns":[
+{
+"name":"A",
+"type":"boolean"
+},
+{
+"name":"B",
+"type":"int"
+},
+{
+"name":"C",
+"type":"double"
+},
+{
+"name":"D",
+"type":"string"
+}
+]
+}```
+
+  
 - API that set a specific cell’s value in a specific sheet.
 - API that return a sheet by id.
 
