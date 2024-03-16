@@ -16,7 +16,7 @@
 ## Introduction
 
 Anchor spreadsheet management server provides multiple capabilitis.<br>With this tool you can optimise your work with sheets, create, edit and save.<br> 
-Below you can get more details of the usage :relaxed: .<br>The server is written in python 3.9 and use Flask infrastructure. 
+Below you can get more details of the usage :relaxed: <br>The server is written in python 3.9 and use Flask infrastructure. 
 
 ## Features
 
@@ -52,11 +52,11 @@ There are 3 main http handlers to the project detailed below:
 
 ## Endpoints
 
-1. GET http://localhost:5000/sheet/{sheetId}
-2. POST http://localhost:5000/sheet
-4. PUT http://localhost:5000/sheet/{sheetId}/cell
+:one: GET http://localhost:5000/sheet/{sheetId}
+:two: POST http://localhost:5000/sheet
+:three: PUT http://localhost:5000/sheet/{sheetId}/cell
 
-## Installation
+## Installation :open_file_folder:
 
 ```bash
 pip install -r requirements.txt
