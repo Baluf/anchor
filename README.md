@@ -3,7 +3,8 @@ spreadsheet management server in python.
 
 # anchor - spreadsheet management
 
-Brief description of your project.
+<img width="1575" alt="image" src="https://github.com/Baluf/anchor/assets/162377261/2e56c3df-45d9-4754-bb72-24dd4c8dc52a">
+
 
 ## Table of Contents
 
